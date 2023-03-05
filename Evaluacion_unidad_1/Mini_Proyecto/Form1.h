@@ -256,12 +256,13 @@ private: System::Void ButtonAdivinar_Click(System::Object^ sender, System::Event
 			this->TxtNum2->ReadOnly = true;
 			num_aleatorio = rand() % (Rango1 - Rango2 + 1) + Rango1;
 			interior_ptr<int> ptr_num_aleatorio = &num_aleatorio;
-			this->LblAdivinar->Text = "El numero es: " + *ptr_num_aleatorio;
+			//this->LblAdivinar->Text = "El numero es: " + *ptr_num_aleatorio;
 			//verificar si se adivina el numero
 			if (NumeroAdivinar == *ptr_num_aleatorio) {
 				this->LblAdivinar->Text = "Haz acertado el numero, Felicidades!!";
 				contador++;
 				this->LblPistas->Text = "Pista:  " + contador + "  Num ingresado: " + NumeroAdivinar;
+				this->TxtAdivinar->ReadOnly = true;
 				adivinar = true;
 			}
 			else if (NumeroAdivinar > *ptr_num_aleatorio) {
