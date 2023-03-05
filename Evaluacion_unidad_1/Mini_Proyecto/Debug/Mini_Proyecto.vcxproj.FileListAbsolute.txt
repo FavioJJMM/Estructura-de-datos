@@ -1,0 +1,4 @@
+C:\Users\favio\Desktop\Universidad\4 Semestre\Estructura_Datos\Mini_Proyecto\Debug\Mini_Proyecto.vcxproj.AssemblyReference.cache
+C:\Users\favio\Desktop\Universidad\4 Semestre\Estructura_Datos\Mini_Proyecto\Debug\Mini_Proyecto.Form1.resources
+C:\Users\favio\Desktop\Universidad\4 Semestre\Estructura_Datos\Mini_Proyecto\Debug\Mini_Proyecto.vcxproj.GenerateResource.cache
+C:\Users\favio\Desktop\Universidad\4 Semestre\Estructura_Datos\Mini_Proyecto\Debug\Mini_Proyecto.exe
